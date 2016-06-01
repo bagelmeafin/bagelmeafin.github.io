@@ -10,13 +10,13 @@
     background-size: cover;
     height: 100vh;
     padding: 180px 0 150px;
-    /*
+    
     -webkit-animation: 100s scroll infinite linear; 
     -moz-animation: 100s scroll infinite linear;
     -o-animation: 100s scroll infinite linear;
     -ms-animation: 100s scroll infinite linear;
     animation: 180s scroll infinite linear; 
-    */
+    
 }
 
 .cta-process {
