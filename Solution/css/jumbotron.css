@@ -1,0 +1,133 @@
+
+
+.cta-header {
+	  z-index: 1;
+	  position: relative;
+    background-size: cover;
+    height: 100vh;
+    padding: 100px 0;
+    /* -webkit-animation: 100s scroll infinite linear; */
+    -moz-animation: 100s scroll infinite linear;
+    -o-animation: 100s scroll infinite linear;
+    -ms-animation: 100s scroll infinite linear;
+    /* animation: 90s scroll infinite linear; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    float: left;
+}
+
+.cta-heading-text {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 44px;
+    color: white; 
+    margin-bottom: 30px;
+}
+
+
+.cta-intro-box {
+  text-align: center;
+}
+
+
+.cta-p {
+    margin: auto;
+    max-width: 710px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    font-size: 24px;
+    line-height: 36px;
+    color: #D8DBE8;
+}
+
+
+
+
+
+
+
+/* VIDEO BACKGROUND */
+
+    #container {
+      overflow: hidden;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+    }
+
+    #background_video {
+      position: absolute;
+
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+
+      object-fit: cover;
+      height: 100%; width: 100%;
+    }
+
+    #video_cover {
+      position: absolute;
+
+      width: 100%; height: 100%;
+
+      background: url('video_cover.jpeg') no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #video_controls {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+
+    #play img {
+      width: 100px;
+    }
+    #pause img {
+      width: 90px;
+    }
+    #pause {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      #video_controls {
+        display: none;
+      }
+    }
+
+
+
+    #container {
+      height: 100%;
+    }
+
+#overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to left, rgba(157, 131, 252, 0.92),rgba(83, 142, 196, 0.91), rgba(38, 210, 190, 0.91)),url(../img/transform.png) center center;
+    /* background: rgba(0,0,0,0.5); */
+}
+
+#overlay-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url(../img/transform.png) center center;
+    background-size: cover;
+    height: 100vh;
+    z-index: 1;
+    padding: 100px 0;
+}
+
+
+
+
+
+
+
